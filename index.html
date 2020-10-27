@@ -3,172 +3,368 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="cssporto.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300&display=swap" rel="stylesheet"> 
-    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap" rel="stylesheet"> 
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet"> 
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet"> 
-    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400&display=swap" rel="stylesheet"> 
-    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300&display=swap" rel="stylesheet"> 
-    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Caption&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Squada+One&display=swap" rel="stylesheet"> 
-    <link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@500&display=swap" rel="stylesheet"> 
-    <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet"> 
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet"> 
-    <link href="https://fonts.googleapis.com/css2?family=Vollkorn:wght@400;500&display=swap" rel="stylesheet"> 
-    <title>Portofolio project</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="aos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nixie+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Patua+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300;400;500;700;900&display=swap"
+        rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Quando&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <title>Document</title>
 </head>
 <body>
+    <div class="container">
+        <div class="banner" data-aos="zoom-in" data-aos-duration="500">
+            <section class="header">
+                <img src="atas.png" id="atas">
+                <img src="kanan.png" id="kanan">
+                <img src="tengah.png" id="tengah">
+                <img src="bawah.png" id="bawah">
+                <img src="kiri.png" id="kiri">
+            </section>
+        </div>
+            <header>
+                <ul class="leftmenu">
+                    <li><a href="#home"><span>home</span><span>home</span></a></li>
+                    <li><a href="#sejarah"><span>sejarah</span><span>sejarah</span></a></li>
+                </ul>   
+                <div class="logopptsb" > <a href="" class="gambar"><img class="logo" src="logosinaga.png" alt=""></a>
+                </div>
 
+                <ul class="rightmenu">
+                    <li><a href="#pptsb"><span>pptsb</span><span>pptsb</span></a></li>
+                    <li><a href="#contact"><span>kontak</span><span>kontak</span></a></li>
+                </ul>
+            </header>
+            <div class="navigation">
+                <ul>
+                    <li>
+                        <a href="#home">
+                            <span class="icon"><i class="fa fa-home" aria-hidden="true"></i></span>
+                            <span class="title">home</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#sejarah">
+                            <span class="icon"><i class="fa fa-history" aria-hidden="true"></i></span>
+                            <span class="title">sejarah</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#pptsb">
+                            <span class="icon"><i class="fa fa-question" aria-hidden="true"></i></span>
+                            <span class="title">pptsb</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#contact">
+                            <span class="icon"><i class="fa fa-phone" aria-hidden="true"></i></span>
+                            <span class="title">contact</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="toggle" onclick="toggleMenu();"></div>
+            
+            <div class="sidebg" data-aos="fade-up" data-aos-duration="1000">
 
-    <!-- Sidebar -->
-    <input type="checkbox" id="check">
-    <div class="sidebar">
-        <ul><!--isi pada sidebar-->
-            <li><a href="#about">About</a></li>
-            <li><a href="#skill">Skills</a></li>
-            <li><a href="#portofolio">Portofolio</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
+                <div class="content1"></div>
+                <div class="content2">
+                    <div class="home">
+                        <div class="homeatas" id="home"><h1>PARSADAAN POMPARAN TOGA SINAGA DOHOT BORU</h1><h1>SUMATERA SELATAN</h1>
+                        <div class="logotogasinaga"><img src="togasinaga.png" alt=""></div></div>
+                        <div id="backgambar">
+                            <div class="bg1"></div>
+                        </div>
+                    
+                        <section>
+                            <div class="home1" id="hometext">
+                                    <h2 class="headerhome" data-aos="fade-up" data-aos-duration="1000">SEJARAH BERDIRINYA PPTSB 1940 DI MEDAN</h2>
+                                    <p class="ptext" data-aos="fade-up" data-aos-duration="1000">
+                                        Perkumpulan Sinaga terinspirasi dari perkumpulan Si Raja Lontung yang ada di Medan pada Tahun 1938, yakni Sinaga,
+                                        Situmorang, Pandiangan, Nainggolan, Simatupang, Aritonang dan Siregar, beserta Boru yaitu Sihombing-Simamora. Pengurus
+                                        pada waktu itu adalah St. Christian Radjagoekgoek sebagai Ketua dan dibantu oleh Herman Sinaga dan Monis Levi Sinaga.
+                                    </p>
+                                        <p class="ptext" data-aos="fade-up" data-aos-duration="1000">
+                                        Pada tahun 1940, timbul keinginan marga Sinaga untuk membentuk
+                                        kesatuan tersendiri. Untuk maksud itu dibentuklah Panitia untuk mencari/mengumpulkan anggota yakni:
+                                        
+                                        Ketua: Ranatus Sinaga (Peg. OGEM). Sekretaris: Djongok Manase Sinaga (Peg. Dunlop). Anggota: Monis Levi Sinaga
+                                        (Polisi/Reserse), Simon Sinaga, Boengaran Sinaga (Peg. Percetakan Sinar Deli Courant), Herman Sinaga (Peg. Contabiliteit
+                                        / KPN).
+                                    </p>
+                            </div>
+                        </section>
+                    
+                        <div id="backgambar">
+                            <div class="bg2">
+                                <div class="contentgambar2"></div>
+                            </div>
+                        </div>
+                    
+                        <section>
+                            <div class="home2" id="hometext">
+                                <h2 class="headerhome" data-aos="fade-up" data-aos-duration="1000">Hasil Rapat</h2>
+                            <p class="ptext" data-aos="fade-up" data-aos-duration="1000">
+                                Setelah anggota terkumpul diada-kan Rapat Anggota (setelah mendapat izin dari Pemerintah Hindia Belanda cq. PID melalui
+                                M. Levi Sinaga, waktu itu harus demikian). Rapat diadakan pada tanggal 15 Desember 1940, bertempat di Gedung
+                                Chrestelijke Batak School (CBS) di Jl. Sei Kera, Medan. Hasil Rapat antara lain:
+                            </p>
+                            <p class="ptext" data-aos="fade-up" data-aos-duration="1000">
+                                <ol class="listparagraph" data-aos="fade-up" data-aos-duration="1000">
+                                <li>Terbentuk Parsadaan Pomparan Toga Sinaga (PPTS) Medan, Langkat dan Deli Serdang.</li>
+                                <li>Yang berhak menjadi anggota adalah warga Sinaga beserta muda-mudi Sinaga dan boru Sinaga atau Sinaga/Boru.</li>
+                                <li>PPTS didirikan sejak tanggal 15 Desember 1940 dan nama ini digunakan selama 29 tahun.</li>
+                            </ol>
+                            </p>
+                            </div>
+                        </section>
+                    
+                    <div id="backgambar">
+                        <div class="bg3">
+                            <div class="contetngambar3"></div>
+                        </div>
+                    </div>
+                    
+                    <section>
+                        <div class="home3" id="hometext">
+                            <h2 class="headerhome" data-aos="fade-up" data-aos-duration="1000">susunan pengurus</h2>
+                            <p class="ptext" data-aos="fade-up" data-aos-duration="1000">
+                                Voorzitter/Ketua: Herman Sinaga, Sekretaris: Djongok Manase Sinaga. Penningmeester/ Bendahara: Boengaran Sinaga. Ajun
+                                Penningmeester: S.W. Maroehoem Sinaga. President Commiss: Renatus Sinaga. Commissarissen/ Komisaris: M. Levi Sinaga,
+                                Simson Sinaga, Alexander Sinaga, Josia Sinaga. Adviseur/Penasehat: Melanton Sinaga.
+                            </p>
+                            <p class="ptext" data-aos="fade-up" data-aos-duration="1000">
+                                Sesudah PPTS berdiri dengan kepengurusan lengkap, disusunlah AD/ART. Beberapa poin penting dalam AD/ART adalah: agar
+                                saling membantu dalam suka dan duka melalui Steinfonds (Derma), Spaarfonds (Menyimpan uang pada PPTS) dan mendirikan
+                                Verbruiks Cooperative (Koperasi keperluan rumah tangga).
+                            </p>
+                        </div>
+                    </section>
+                    
+                    <div id="backgambar">
+                        <div class="bg4">
+                            <div class="terakhir"></div>
+                        </div>
+                    </div>
+                    
+                    <section>
+                        <div class="home4" id="hometext">
+                            <h2 class="headerhome" data-aos="fade-up" data-aos-duration="1000">kegiatan</h2>
+
+                            <p class="ptext" data-aos="fade-up" data-aos-duration="1000">
+                                Sesuai dengan peraturan Pemerintah Hindia Belanda, bahwa setiap organisasi yang akan berdiri harus dilaporkan dan
+                                disahkan. Atas dasar ini, pengurus PPTS melaporkan membuat usulan pendirian PPTS secara lengkap dengan melampirkan
+                                AD/ART. Karena PPTS adalah organisasi yang tidak berbau, maka Pemerintah Hindia Belanda PPTS mengesahkan sebagai suatu
+                                organisasi resmi dengan Surat No. 8027 Medan 29 April 1941 ditanda tangani oleh wg. Van Gelder.
+                            </p>
+                            <p class="ptext" data-aos="fade-up" data-aos-duration="1000">
+                                Tetapi tak lama setelah pengesahan tersebut, salah seorang pengurus yakni sekretaris Djongok Manase Sinaga wafat pada
+                                tanggal 17 Mei 1941. Sebagai gantinya pengurus mengangkat Arcenius Sinaga menjadi Secretaris, sedangkan Pimpinan
+                                Cooperative diserahkan kepada Boengaran Sinaga bekerja sama dengan Renatoes Sinaga dan Herman Si-naga. Mereka
+                                mendatangkan beras dari Porsea dan Balige, juga meyediakan gula, sabun, kain panjang/batik dan lain-lain, yang
+                                pembayarannya didahulukan/dijamini dari toke, kemudian diantar ke rumah anggota pakai bon, dengan ketentuan bulan
+                                berikutnya harus dibayar. Demikianlah usaha tersebut berjalan dengan lancar.
+                            </p>
+                        </div>
+                    </section>
+                    </div>
+                </div>
+                <div class="pagebl" id="sejarah"></div>
+                <div class="sejarah"  data-aos="fade-up" data-aos-duration="1000">
+                    
+                    <h1>sejarah sinaga</h1>
+                    <div class="contsejarah">
+                        <div class="imgsejarah">
+                            <div class="clip clip1">
+                                <div class="content">
+                                    <h2>Sopo Guru Tatea Bulan</h2>
+                                    <p>Sopo Guru Tatea Bulan atau Rumah Guru Tatea Bulan serta perkampungan si Raja Batak terletak di Dusun Arsam Kecamatan
+                                        Sianjur Mula-mula berjarak 13 Km dari Pangururan. Di tempat ini kita akan menemukan patung-patung si Raja Batak dengan
+                                    keturunannya. Bentuk rumah ini pun di desain dengan ciri khas Rumah Batak.</p>
+                                </div>
+                            </div>
+                            <div class="clip clip2">
+                                <div class="content">
+                                    <h2>Patung-Patung Pomparan Raja</h2>
+                                    <p>Jabu Parsaktian dan Sopo Guru tidaklah dibangun asal-asalan. Bermula dari keinginan Punguan Pomparan Guru Tatea Bulan
+                                        (PPGTB) yang ingin sekali memelihara situs budaya milik nenek moyang Suku Batak Toba tersebut, maka didirikanlah gedung
+                                    adat berornamen ukiran gorga di sisi timur Bukit Sigulatti.</p>
+                                </div>
+                            </div>
+                            <div class="clip clip3">
+                                <div class="content">
+                                    <h2>Tarombo Batak</h2>
+                                    <p>Tarombo Batak adalah silsilah garis keturunan secara patrilineal dalam suku Batak. Sudah menjadi kewajiban bagi
+                                        masyarakat suku bangsa Batak untuk mengetahui silsilahnya agar mengetahui letak hubungan kekerabatan terkhusus dalam
+                                    falsafah Dalihan Natolu.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="teksisi">
+                             <p class="sejarahsinaga" data-aos="fade-up" data-aos-duration="1000">
+                                SINAGA adalah salah satu marga tertua yang ada dalam suku Batak Toba. Asalnya dari Desa Urat, Pulau Samosir namun marga
+                                ini umum pula dikenal di Indonesia. Tidak sedikit pula keturunan Sinaga yang hari ini berada di penjuru dunia. <br>Bila dijejaki dari garis leluhur, maka marga Sinaga keturunan Si Raja Batak generasi kelima. Dari Si Raja Batak
+                                memperanakkan Guru Tateabulan. Guru Tateabulan memperanakkan Tuan Sariburaja. Tuan Sariburaja memperanakkan Raja
+                                Lontung. Si Raja Lontung inilah yang menjadi ayahnya Sinaga. <br>Si Raja Lontung memiliki sembilan anak yang terdiri dari 7 laki-laki dan 2 perempuan (boru). Mereka antara lain: Toga
+                                Sinaga, Tuan Situmorang, Toga Pandiangan, Toga Nainggolan, Toga Simatupang, Toga Aritonang, Toga Siregar, Siboru Amak
+                                Pandan, dan Siboru Panggabean. <br>Menurut E.H. Tambunan dalam Sekelumit Mengenai Masyarakat Batak Toba dan Kebudayaannya, keturunan Lontung kebanyakan
+                                tinggal di Samosir. Keturunan Lontung kemudian menyebar memenuhi Tanah Batak. “Hampir di seluruh Tanah Batak terdapat
+                                keturunan Lontung, bermarga Sinaga,” tulis Tambunan. <br>Dalam beberapa buku tarombo (silsilah), sebagaimana dicatat antropolog Richard Sinaga dalam Silsilah Marga-Marga Batak,
+                                ada yang menempatkan Situmorang sebagai keturunan Lontung yang pertama sedangkan Sinaga pada urutan kedua. Menurut
+                                cerita orang tua turun-temurun, anak sulung Si Raja Lontung adalah Sinaga dan anak kedua Situmorang. Setelah dewasa,
+                                Situmorang lebih dulu kawin dengan Boru Limbong sementara adik Boru Limbong ini diperistri oleh Sinaga. <br>“Karena itu Situmorang lazim disebut haha ni parrajaon (menjadi abang karena istrinya kakak dari istri Sinaga) dan
+                                Sinaga disebut haha ni partubu (abang karena lebih dahulu lahir),” tulis Richard Sinaga. <br> Sinaga mempunyai 3 anak laki-laki antara lain: Raja Bonor, Raja Ratus, dan Raja Uruk. Masing-masing dari mereka
+                                mempunyai tiga anak laki-laki. Raja Bonor yang kemudian disebut Sinaga Bonor memperanakkan Raja Pande, Tiang Ditonga,
+                                dan Suhutnihuta. Si Raja Ratus yang kemudian disebut Sinaga Ratus memperanakkan Ratus Nagodang, Si Tinggi, dan Si Ongko.
+                                Raja Uruk yang kemudian disebut Sinaga Uruk memperanakan Sihatahutan, Barita Raja, dan Datu Hurung. <br>Dalam Toba Na Sae: Sejarah Lembaga Sosial Politik Abad XIII-XX, budayawan Sitor Situmorang mencatat persaingan antara
+                                marga Sinaga dan Situmorang pada masa Si Singamangaraja XII. Salah satu keturunan Sinaga bernama Ompu Palti Raja
+                                –menurut Belanda– adalah musuh bebuyutan Sisingamangaraja. Pada masa penyerangan Belanda, Ompu Paltiraja bersikap netral
+                                bahkan bermusuhan dengan Sisingamangaraja. <br>Menurut Sitor, meski sama-sama keturunan Lontung, Situmorang dan Sinaga memainkan peran kultural dan politik yang
+                                berbeda. Marga Situmorang disebutkan sebagai bride giver karena Sisingmanagaraja selalu beristrikan boru Situmorang.
+                                Sementara Sinaga disebut oleh Sitor sebagai bride taker bagi dinasti Sisingamangaraja. <br>“Dari silsilah diketahui bahwa relasi antara kedua marga kakak-beradik dalam lingkungan Lontung itu ditandai persaingan
+                                intern, yaitu perebutan hegemoni dalam organisasi parbaringin (agama Batak) di semua bius Lontung,” tulis Sitor. Selain
+                                itu, diterangkan Sitor antara marga Sinaga dan Situmorang kerap bersaing mengenai siapa yang berhak menjadi Pandita
+                                Bolon (pendeta utama) yang mempimpin organisasi parbaringin dalam bius (paguyuban meliputi wilayah tertentu) mereka. <br>Sampai saat ini semua keturunan Toga Sinaga masih tetap satu marga yaitu marga Sinaga. Lain halnya dengan
+                                saudara-saudaranya yang enam, telah berkembang menjadi beberapa marga. Semua keturunan Toga Sinaga terhimpun dalam satu
+                                ikatan yang diberi nama: Parsadaan Pomparan Toga Sinaga dohot Boruna (PPTSB). Persatuan ini ada di tingkat kecamatan,
+                                kabupaten, provinsi bahkan tingkat nasional.<br><br> Oleh Martin Sitompul
+                             </p>
+                         </div>
+                        </div>
+                        <div class="pagebl"></div>
+                        <div class="pptsb">
+                            <h1 id="pptsb" data-aos="fade-up" data-aos-duration="1000">pengurus wilayah pptsb</h2>
+                            <div class="penguruspptsb">
+                            <div class="pengurus ketum">
+                                <div class="box" data-aos="fade-up" data-aos-duration="1000">
+                                    <h2 class="nama">EDUARD IHOT TUA SINAGA, S.Si</h2>
+                                    <a href="#" class="buy">ketua</a>
+                                    <div class="circle"></div>
+                                    <img src="ketum.png" class="product">
+                                </div>
+                            </div>
+                            <div class="pengurus ketua" data-aos="fade-up" data-aos-duration="1000">
+                                <div class="box">
+                                    <h2 class="nama">Mangasi Sinaga, SE, SH, MM</h2>
+                                    <a href="#" class="buy">wakil ketua 1</a>
+                                    <div class="circle"></div>
+                                    <img src="ketua1.png" class="product">
+                                </div>
+                                <div class="box">
+                                    <h2 class="nama">Drg. Dedi H Sinaga</h2>
+                                    <a href="#" class="buy">wakil ketua 2</a>
+                                    <div class="circle"></div>
+                                    <img src="ketua2.png" class="product">
+                                </div>
+                                <div class="box">
+                                    <h2 class="nama">Mangiring Hasoloan Sinaga</h2>
+                                    <a href="#" class="buy">wakil ketua 3</a>
+                                    <div class="circle"></div>
+                                    <img src="ketua3.png" class="product">
+                                </div>
+                            </div>
+                            <div class="pengurus sekben" data-aos="fade-up" data-aos-duration="1000">
+                                <div class="box">
+                                    <h2 class="nama">St TIRTONIADI SINAGA, SE</h2>
+                                    <a href="#" class="buy">sekretaris</a>
+                                    <div class="circle"></div>
+                                    <img src="sekretaris1.png" class="product">
+                                </div>
+                                <div class="box">
+                                    <h2 class="nama">MOPUL ARUAN</h2>
+                                    <a href="#" class="buy">bendahara</a>
+                                    <div class="circle"></div>
+                                    <img src="bendahara.png" class="product">
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                        
+                <div class="content3"></div>
+
+            </div>
+            <section class="kontak">
+                <div class="contentkon">
+                    <h2 id="contact" data-aos="fade-up" data-aos-duration="1000">KONTAK KAMI</h2>
+                </div>
+                <div class="kontain">
+                    <div class="kontakInfo" data-aos="fade-up" data-aos-duration="1000">
+                        <div class="boks" data-aos="fade-up" data-aos-duration="1000">
+                            <div class="ikon" data-aos="fade-up" data-aos-duration="1000">
+                                <i class="fa fa-map-marker"></i>
+                            </div>
+                            <div class="text">
+                                <h3>Alamat</h3>
+                                <p>Jl. Mayor Ruslan, 20<br>Ilir D II, Kec. Ilir Tim. I,<br>Kota Palembang, Sumatera Selatan 30114
+                                </p>
+                            </div>
+                        </div>
+                        <div class="boks">
+                            <div class="ikon">
+                                <i class="fa fa-phone"></i>
+                            </div>
+                            <div class="text">
+                                <h3>Telephone</h3>
+                                <p>+62 811 985 646</p>
+                            </div>
+                        </div>
+                        <div class="boks">
+                            <div class="ikon">
+                                <i class="fa fa-envelope-o"></i>
+                            </div>
+                            <div class="text">
+                                <h3>Email</h3>
+                                <p>pptsb_sumsel@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="kontakForm" data-aos="fade-up" data-aos-duration="1000">
+                        <form>
+                            <h2>Hubungi Kami Melalui Pesan</h2>
+                            <div class="inputBox">
+                                <input type="text" name="" required="required">
+                                <span>Nama Lengkap</span>
+                            </div>
+                            <div class="inputBox">
+                                <input type="text" name="" required="required">
+                                <span>Email</span>
+                            </div>
+                            <div class="inputBox">
+                                <textarea required="required"></textarea>
+                                <span>Ketik Pesan Anda...</span>
+                            </div>
+                            <div class="inputBox">
+                                <input type="submit" name="" value="Kirim">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+            
     </div>
-
-
-    <!-- Header -->
-    <header>
-        <div class="container">
-            <h1>
-                <a href="">Daniel</a>
-            </h1>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skill">Skills</a></li>
-                <li><a href="#portofolio">Portofolio</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul> 
-            
-            
-    <!-- Bar Menu -->
-            <label for="check" class="mobile-menu">
-                <i class="fa fa-bars fa-2x" aria-hidden="true"></i>
-            </label>
-        </div>
-    </header>
-
-
-    <!--Bagian Banner-->
-    <section class="banner">
-        <div class="container"> 
-            <div class="banner-left">
-                <img src="myphoto.jpg" alt="Daniel Ihot Junior Sinaga" width="150"> 
-                <h2>Hi! Thanks for checking me out <br>
-                    I am a <span class="txt-type" data-wait="1200" data-words='["Fresh Graduates", "Developer Wannabe", "Freelancer"]'></span>
-                </h2>
-                <p>Welcome to my portofolio and ENJOY!</p>
-            </div>    
-        </div> 
-    </section>
-
-    <!-- Bagian About Me -->
-    <section id="about">
-        <div class="container">
-            <h3 name="about">About Me</h3>
-            <p>My Name is Daniel Ihot Junior Sinaga. Bachelor in Informatics Engineering, a person who upholds responsibility, fast learner, excited to meet new people and encounter challenging things, both working in groups and individually, easy to adapt, and has good logic. Currently studying full-stack developer and object-oriented programming.
-            </p>
-        </div>
-    </section>
-
-    <!-- Bagian Skills -->
-		<section name="skill" id="skills">
-			<div class="container">
-                <a name="skill"></a>
-				<h3 id="skills">Skills</h3>
-				<h4>HTML</h4>
-				<div class="bar">
-					<span class="nilai html">65%</span>
-				</div>
-
-				<h4>CSS</h4>
-				<div class="bar">
-					<span class="nilai css">60%</span>
-				</div>
-
-				<h4>Javascript</h4>
-				<div class="bar">
-					<span class="nilai js">50%</span>
-				</div>
-
-				<h4>Python</h4>
-				<div class="bar">
-					<span class="nilai ps">50%</span>
-				</div>
-			</div>
-        </section>
-        
-        <!-- bagian portfolio -->
-		<section name="portofolio" id="portfolio">
-			<div class="container">
-                <a name="portofolio"></a>
-				<h3>Portfolio</h3>
-				<div class="col-4">
-					<a href="">
-						<img src="python.png">
-						
-					</a>
-				</div>
-
-				<div class="col-4">
-					<a href="">
-						<img src="html.png">
-						
-					</a>
-				</div>
-
-				<div class="col-4">
-					<a href="">
-						<img src="css.png">
-						
-					</a>
-				</div>
-
-				<div class="col-4">
-					<a href="">
-						<img src="js.png">
-						
-					</a>
-                </div>
-            </section>
-                <br>
-            <!-- bagian contact -->
-            <section id="contact">
-                <div class="container">
-                    <a name="contact"></a>
-                    <h3>Contact</h3>
-                    <div class="col-3">
-                        <h4>Alamat</h4>
-                        <p>Jalan Duri Kosambi RT 3 RW 1 no. 51 Cengkareng, Jakarta Barat, DKI Jakarta</p>
-                    </div>
-
-                    <div class="col-3">
-                        <h4>Email</h4>
-                        <p>nieljrnaga@gmail.com</p>
-                    </div>
-
-                    <div class="col-3">
-                        <h4>Telp/Hp</h4>
-                        <p>+62 821 8839 9733</p>
-                    </div>	
-                </div>
-            </section>
-
-            <!-- bagian footer -->
-            <footer>
-                <div class="container">
-                    <small>Copyright &copy; 2020 - Niel Naga.</small>
-                </div>
-            </footer>
-
-
-<script src="jsporto.js"></script>
+<script src="script1.js"></script>
+<script src="aos.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<script type="text/javascript">
+    AOS.init();
+</script>
+<script src="script.js"></script>
+<script src="vanilla-tilt.min.js"></script>
+<script>
+    VanillaTilt.init(document.querySelectorAll(".box"), {
+        max: 25,
+        speed: 400
+    });
+</script>
 </body>
 </html>
